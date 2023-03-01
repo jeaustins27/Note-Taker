@@ -2,18 +2,14 @@
   "name": "note-taker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jeaustins27/Note-Taker.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jeaustins27/Note-Taker/issues"
-  },
-  "homepage": "https://github.com/jeaustins27/Note-Taker#readme"
+  "dependencies": {
+    "express": "^4.16.4",
+    "uuid": "^9.0.0"
+  }
 }
