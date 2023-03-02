@@ -24,7 +24,7 @@ app.get('/notes', (req, res) =>
 
 // GET Route for wildcard to homepage
 app.get('*', (req, res) =>
-  res.sendFile(path.join(__dirname, 'public/pages/index.html'))
+  res.sendFile(path.join(__dirname, 'public/index.html'))
 );
 
 // Listening to the PORT
